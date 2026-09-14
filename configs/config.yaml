@@ -1,0 +1,14 @@
+paths:
+  raw: data/raw
+  intermediate: data/intermediate
+  processed: data/processed
+
+data:
+  reviews: review-Mississippi_10.json
+  meta: meta-Mississippi.json
+
+cleaning:
+  min_text_chars: 3
+  food_keywords: ['restaurant', 'food', 'grill', 'chicken', 'pizza', 'burger', 'sandwich', 'steak', 'seafood', 'salad']
+
+seed: 42
